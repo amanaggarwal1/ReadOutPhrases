@@ -9,9 +9,14 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    MediaPlayer mediaPlayer = new MediaPlayer();
+
     public void readOut(View view){
+        if(mediaPlayer.isPlaying()){
+            mediaPlayer.stop();
+        }
         Button button = (Button) view;
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, getResources().getIdentifier(button.getTag().toString(), "raw", getPackageName()));
+        mediaPlayer = MediaPlayer.create(this, getResources().getIdentifier(button.getTag().toString(), "raw", getPackageName()));
         mediaPlayer.start();
     }
 
