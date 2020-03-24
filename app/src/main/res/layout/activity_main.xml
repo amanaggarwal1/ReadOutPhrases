@@ -26,7 +26,8 @@
             android:gravity="fill"
             android:layout_margin="16dp"
             android:tag="doyouspeakenglish"
-            android:text="Do you\nspeak English?" />
+            android:text="Do you\nspeak English?"
+            android:onClick="readOut"/>
 
         <Button
             android:id="@+id/button2"
@@ -35,7 +36,8 @@
             android:gravity="fill"
             android:layout_margin="16dp"
             android:tag="goodevening"
-            android:text="Good evening" />
+            android:text="Good evening"
+            android:onClick="readOut"/>
 
         <Button
             android:id="@+id/button3"
@@ -44,7 +46,8 @@
             android:gravity="fill"
             android:layout_margin="16dp"
             android:tag="hello"
-            android:text="Hello" />
+            android:text="Hello"
+            android:onClick="readOut"/>
 
         <Button
             android:id="@+id/button4"
@@ -53,7 +56,8 @@
             android:gravity="fill"
             android:layout_margin="16dp"
             android:tag="howareyou"
-            android:text="How are you?" />
+            android:text="How are you?"
+            android:onClick="readOut"/>
 
         <Button
             android:id="@+id/button5"
@@ -62,7 +66,8 @@
             android:gravity="fill"
             android:layout_margin="16dp"
             android:tag="ilivein"
-            android:text="I live in" />
+            android:text="I live in"
+            android:onClick="readOut"/>
 
         <Button
             android:id="@+id/button6"
@@ -71,7 +76,8 @@
             android:gravity="fill"
             android:layout_margin="16dp"
             android:tag="mynameis"
-            android:text="My name is" />
+            android:text="My name is"
+            android:onClick="readOut"/>
 
         <Button
             android:id="@+id/button7"
@@ -80,7 +86,8 @@
             android:gravity="fill"
             android:layout_margin="16dp"
             android:tag="please"
-            android:text="Please" />
+            android:text="Please"
+            android:onClick="readOut"/>
 
         <Button
             android:id="@+id/button8"
@@ -89,6 +96,7 @@
             android:gravity="fill"
             android:layout_margin="16dp"
             android:tag="welcome"
-            android:text="Welcome" />
+            android:text="Welcome"
+            android:onClick="readOut"/>
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
